@@ -1,0 +1,13 @@
+import matplotlib.pyplot as plt
+
+kunlar = [1, 2, 3, 4, 5, 6, 7]
+harorat = [18, 20, 17, 23, 25, 22, 27]
+
+plt.plot(kunlar, harorat, marker="o")
+
+plt.title("haftalik harorat")
+plt.xlabel("kunlar")
+plt.ylabel("haroratlar (°C)")
+
+plt.grid(True)
+plt.show()
